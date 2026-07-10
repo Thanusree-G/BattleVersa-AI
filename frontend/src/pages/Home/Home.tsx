@@ -1,10 +1,13 @@
-function Home() {
+import Navbar from "../../components/Navbar/Navbar";
+import Hero from "../../components/Hero/Hero";
+
+const Home = () => {
   return (
-    <div>
-      <h1>🎮 Welcome to BattleVerse AI</h1>
-      <p>Next Generation Multiplayer Battle Arena</p>
+    <div className="bg-slate-950 text-white min-h-screen">
+      <Navbar />
+      <Hero />
     </div>
   );
-}
+};
 
 export default Home;
